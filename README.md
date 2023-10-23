@@ -14,6 +14,6 @@
             ToDo:
             1) Ricing plans
             2) Understand wtf is going on this config files even though i made them i'm still confused mostly about the language
-        <pre>
+        </pre>
     </b>
 </h2>
