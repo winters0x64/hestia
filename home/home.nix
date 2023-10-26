@@ -1,4 +1,4 @@
-{ config, pkgs, hyprland, ... }:
+{ config, pkgs, hyprland, inputs, ... }:
 
 {
 
@@ -11,7 +11,7 @@
     username = "winters";
     homeDirectory = "/home/winters";
 
-     # Packages that should be installed to the user profile.
+    # Packages that should be installed to the user profile.
     packages = with pkgs; [
     distrobox
     vscode
@@ -22,6 +22,9 @@
     google-chrome
     xfce.thunar
     vlc
+    grim
+    slurp
+    inputs.ags.packages.${pkgs.system}.default
   ];
 
    # Don't touch this!
