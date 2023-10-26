@@ -11,6 +11,6 @@
     };
 
     xdg.configFile = {
-        "hypr/hyprland.conf".source = ../../hypr/hyprland.conf;
+        "hypr/hyprland.conf".source = ../../config/hypr/hyprland.conf;
     };
 }
