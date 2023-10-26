@@ -8,8 +8,7 @@
         enable = true;
         systemdIntegration = true;
         xwayland.enable = true;
-        
     };
 
-    home.file.".config/hypr/config".source = ../config/hypr;
+    home.file."./config/hypr/hyprland.conf".source = ./hyprland.conf;
 }
