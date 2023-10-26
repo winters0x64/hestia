@@ -10,5 +10,7 @@
         xwayland.enable = true;
     };
 
-    home.file.".config/hypr/config".source = ../../config/hypr;
+    xdg.configFile = {
+        "hypr/hyprland.conf".source = ../../hypr/hyprland.conf;
+    };
 }
