@@ -25,6 +25,8 @@
     grim
     slurp
     inputs.ags.packages.${pkgs.system}.default
+    netcat
+    upower
   ];
 
    # Don't touch this!

@@ -1,9 +1,8 @@
 # Hestia
 
-Dir Hierarchy
-
 ```
 ├── home
+|  ├── config
 │  ├── programs
 │  │   ├── alacritty
 │  │   ├── dunst
