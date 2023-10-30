@@ -5,7 +5,8 @@
         ./git
         ./hypr
         ./rofi
-        ./waybar
+        /* ./waybar */
+        ./foot
         /* ./eww */
     ];
 }
