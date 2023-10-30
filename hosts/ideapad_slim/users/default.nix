@@ -5,6 +5,6 @@
     users.users.winters = {
         isNormalUser = true;
         description = "Arun Krishnan";
-        extraGroups = [ "networkmanager" "wheel" "docker" ];
+        extraGroups = [ "networkmanager" "wheel" "docker"];
     };
 }

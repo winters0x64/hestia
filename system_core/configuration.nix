@@ -28,7 +28,7 @@
   # Time and locale
   time.timeZone = "Asia/Kolkata";
 
-  i18n = {
+ i18n = {
     defaultLocale = "en_IN";
     extraLocaleSettings = {
       LC_ADDRESS = "en_IN";

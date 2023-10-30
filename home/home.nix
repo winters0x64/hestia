@@ -27,6 +27,8 @@
     inputs.ags.packages.${pkgs.system}.default
     netcat
     upower
+    sassc
+    virt-manager
   ];
 
    # Don't touch this!

@@ -2,7 +2,13 @@ label {
     font-weight: bold;
 }
 
-.workspaces button,
+.workspaces button {
+    background-color: cyan;
+    color: #ddcbcb;
+    border-radius : 30px 30px 30px 30px;
+    margin-bottom: 40px;
+}
+
 .media {
     background-color: transparent;
     color: #ddcbcb;
@@ -49,5 +55,5 @@ progress, highlight {
 }
 
 .bar {
-    background-color: black;
+    background-color: rgb(255, 0, 0);
 }
