@@ -1,0 +1,10 @@
+(defpoll clock_time :interval "1m" "date +\%I")
+(defpoll clock_minute :interval "30s" "date +\%M")
+
+
+(defwidget clock []
+  (eventbox :onclick "${EWW_CMD} open calendar --toggle"
+    (box :class "clock" :space-evenly "false" :orientation "h" :spacing "3" 
+      (label :text clock_time :class "clock_time_class" )
+      (label :text "󰇙" :class "clock_time_sep" )
+      (label :text clock_minute :class "clock_minute_class"))))
