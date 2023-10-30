@@ -7,6 +7,6 @@
         ./rofi
         ./waybar
         ./zsh
-        ./ags
+        ./eww
     ];
 }

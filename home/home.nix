@@ -1,4 +1,4 @@
-{ config, pkgs, hyprland, inputs, ... }:
+{ config, pkgs, hyprland, ... }:
 
 {
 
@@ -24,7 +24,6 @@
     vlc
     grim
     slurp
-    inputs.ags.packages.${pkgs.system}.default
     netcat
     upower
     sassc
