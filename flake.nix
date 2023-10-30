@@ -50,8 +50,8 @@
                 home-manager.extraSpecialArgs = specialArgs;
               }
             
-            # Overlays
-            (args: { nixpkgs.overlays = import ./overlays args; })
+            /* # Overlays
+            (args: { nixpkgs.overlays = import ./overlays args; }) */
           ];
         };
       };

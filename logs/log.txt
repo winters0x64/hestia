@@ -1,0 +1,3 @@
+What's happening rn?
+
+Ported the .files back to ~/.config to easily edit the dotfiles without rebuilding the entire system.

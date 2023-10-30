@@ -6,7 +6,6 @@
         ./hypr
         ./rofi
         ./waybar
-        ./zsh
-        ./eww
+        /* ./eww */
     ];
 }

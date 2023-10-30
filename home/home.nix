@@ -1,11 +1,14 @@
 { config, pkgs, hyprland, ... }:
 
 {
-
   imports = [
     hyprland.homeManagerModules.default
     ./programs
   ];
+
+  # Font config
+  fonts.fontconfig.enable = true;
+
   # Basic Info about the user
   home = {
     username = "winters";
@@ -25,9 +28,11 @@
     grim
     slurp
     netcat
-    upower
-    sassc
-    virt-manager
+    jq
+    socat
+    (pkgs.nerdfonts.override { fonts = [ "DaddyTimeMono" "JetBrainsMono" ]; })
+    brightnessctl
+    eww-wayland
   ];
 
    # Don't touch this!

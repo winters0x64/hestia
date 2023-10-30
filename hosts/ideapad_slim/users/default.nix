@@ -6,5 +6,6 @@
         isNormalUser = true;
         description = "Arun Krishnan";
         extraGroups = [ "networkmanager" "wheel" "docker"];
+        shell = pkgs.zsh;
     };
 }
