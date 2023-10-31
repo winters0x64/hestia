@@ -1,6 +1,6 @@
 {
     imports = [
-        ./dunst
+        /* ./dunst */
         ./git
         ./hypr
         ./rofi

@@ -1,4 +1,4 @@
-{ config, pkgs, hyprland, ... }:
+{ config, pkgs, hyprland, inputs, ... }:
 
 {
   imports = [
@@ -13,7 +13,6 @@
   home = {
     username = "winters";
     homeDirectory = "/home/winters";
-
     # Packages that should be installed to the user profile.
     packages = with pkgs; [
     distrobox
@@ -28,11 +27,9 @@
     grim
     slurp
     netcat
-    jq
-    socat
-    (pkgs.nerdfonts.override { fonts = [ "DaddyTimeMono" "JetBrainsMono" ]; })
-    brightnessctl
-    eww-wayland
+    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    inputs.ags.packages.${pkgs.system}.default
+    pavucontrol
   ];
 
    # Don't touch this!

@@ -20,5 +20,6 @@
     environment.systemPackages = with pkgs; [
         btop
         blueberry
+        service-wrapper
     ];
 }
