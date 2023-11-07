@@ -21,5 +21,6 @@
         btop
         blueberry
         service-wrapper
+        eww-wayland
     ];
 }

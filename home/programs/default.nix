@@ -5,6 +5,6 @@
         ./hypr
         ./rofi
         ./foot
-        ./eww
+        # ./eww
     ];
 }

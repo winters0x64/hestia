@@ -26,7 +26,9 @@
     grim
     slurp
     netcat
-    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    socat
+    jq
+    (pkgs.1.override { fonts = [ "JetBrainsMono DaddyTimeMono" ]; })
     pavucontrol
   ];
 

@@ -2,4 +2,5 @@
 
 {
     programs.eww.enable = true;
+    programs.eww.package = pkgs.eww-wayland;
 }
