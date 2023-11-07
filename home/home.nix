@@ -17,7 +17,6 @@
     packages = with pkgs; [
     distrobox
     vscode
-    discord
     burpsuite
     neofetch
     swww
@@ -28,7 +27,6 @@
     slurp
     netcat
     (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
-    inputs.ags.packages.${pkgs.system}.default
     pavucontrol
   ];
 

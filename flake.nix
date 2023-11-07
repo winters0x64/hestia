@@ -17,12 +17,12 @@
     hyprland.url = "github:hyprwm/Hyprland";
 
     # Ags
-    ags.url = "github:Aylur/ags";
+    # ags.url = "github:Aylur/ags";
 
   };
 
   # Output of the flake
-  outputs = { self, nixpkgs, home-manager, hyprland, ...}@inputs :
+  outputs = { self, nixpkgs, home-manager, hyprland, ...}:
 
     # Variables to use
     let
@@ -42,7 +42,7 @@
       nixosConfigurations = {
         "andromeda" = lib.nixosSystem rec {
           inherit system;
-          specialArgs = { inherit hyprland inputs; };
+          specialArgs = { inherit hyprland; };
           modules = [
             ./system_core/configuration.nix
             hyprland.nixosModules.default

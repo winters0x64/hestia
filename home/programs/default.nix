@@ -1,10 +1,10 @@
 {
     imports = [
-        /* ./dunst */
+        ./dunst
         ./git
         ./hypr
         ./rofi
         ./foot
-        /* ./eww */
+        ./eww
     ];
 }

@@ -23,10 +23,6 @@
             xkbVariant = "";
             libinput.enable = true;
             displayManager.startx.enable = true;
-            # DWM
-            windowManager.dwm.enable = true;
-            # SDDM
-            displayManager.sddm.enable = true;
         };
 
         # Pipewire
