@@ -28,10 +28,17 @@
     netcat
     socat
     jq
-    (pkgs.1.override { fonts = [ "JetBrainsMono DaddyTimeMono" ]; })
+    discord
+    pamixer
+    brightnessctl
+    nwg-look
+    swaylock-effects
+    fuzzel
+    nodejs
+    pfetch
+    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "DaddyTimeMono" ]; })
     pavucontrol
   ];
-
    # Don't touch this!
    stateVersion = "23.05";
   };
