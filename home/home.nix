@@ -9,6 +9,19 @@
   # Font config
   fonts.fontconfig.enable = true;
 
+  # GTK theme
+  # Not working idk why....
+  /* gtk = {
+    enable = true;
+    theme = {
+      name = "juno-theme";
+      package = pkgs.juno-theme;
+    };
+    font.name = "DaddyTimeMono";
+    iconTheme.name = "Numix Circle";
+    iconTheme.package = pkgs.numix-icon-theme-circle;
+  }; */
+
   # Basic Info about the user
   home = {
     username = "winters";

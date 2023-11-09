@@ -2,6 +2,7 @@
 
 {
     programs.dconf.enable = true;
+    
 
     programs.zsh = {
         enable = true;
@@ -22,5 +23,6 @@
         blueberry
         service-wrapper
         eww-wayland
+        dmenu
     ];
 }
