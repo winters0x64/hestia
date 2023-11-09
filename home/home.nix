@@ -32,7 +32,6 @@
     pamixer
     brightnessctl
     nwg-look
-    swaylock-effects
     fuzzel
     nodejs
     pfetch

@@ -5,6 +5,7 @@
         ./hypr
         ./rofi
         ./foot
+        ./swaylock
         # ./eww
     ];
 }
