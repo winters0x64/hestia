@@ -1,4 +1,6 @@
 # Isolated nix environment for CTFs with all the necessary tools and for development too
+# Just cli based apps
+# Temporarily froz until i find a reliable reason why to use this feature...
 
 {pkgs ? import <nixpkgs> {} }:
 
@@ -10,7 +12,6 @@ pkgs.mkShell
         virtualenv
         php
         go
-        wireshark
         ngrok
     ] ++ (with pkgs.python311Packages; [ pip requests]);
 

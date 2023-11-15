@@ -60,6 +60,6 @@
         };
       };
       # Shell declaration
-      devShells.x86_64-linux.default = (import ./shells/shell.nix {inherit pkgs;});
+     /*  devShells.x86_64-linux.default = (import ./shells/shell.nix {inherit pkgs;}); */
     };
 }

@@ -22,6 +22,7 @@
     swww
     google-chrome
     xfce.thunar
+    pamixer
     vlc
     grim
     slurp
@@ -37,8 +38,20 @@
     cava
     xdg-utils
     webcord
+    wireshark
+    nodejs
+    python311
+    virtualenv
+    php
+    go
+    ngrok
+    sqlmap
+    gobuster
+    qbittorrent
     (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "DaddyTimeMono" ]; })
     pavucontrol
+    nmap
+    nnn
   ];
    # Don't touch this!
    stateVersion = "23.05";

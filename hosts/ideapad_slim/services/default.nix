@@ -7,9 +7,10 @@
         portal = {
             enable = true;
             extraPortals = with pkgs; [
-                xdg-desktop-portal-hyprland
+                /* xdg-desktop-portal-hyprland */
+                xdg-desktop-portal-gtk
+                xdg-desktop-portal-wlr
             ];
-            wlr.enable = true;
         };
     };
 
@@ -40,8 +41,11 @@
             pulse.enable = true;
             wireplumber.enable = true;
         };
-    };
 
-    # Power management
-    services.upower.enable = true;   
+        # Mysql
+        mysql = {
+            enable = true;
+            package = pkgs.mariadb;
+        };
+    };
 }
