@@ -24,5 +24,6 @@
         service-wrapper
         eww-wayland
         dmenu
+        wget
     ];
 }

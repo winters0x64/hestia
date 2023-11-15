@@ -81,6 +81,7 @@
     };
   };
 
+
   # Set default editor to vim
   environment.variables.EDITOR = "vim";
 

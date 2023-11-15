@@ -1,3 +1,5 @@
 What's happening rn?
 
 Ported the .files back to ~/.config to easily edit the dotfiles without rebuilding the entire system.
+
+Shit ffs finally able to screen share now  in both google meet and webcord coz fuck discord wayland team

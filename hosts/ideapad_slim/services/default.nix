@@ -3,9 +3,14 @@
 {
 
     # XDG portal
-    xdg.portal = {
-        enable = true;
-        wlr.enable = true;
+    xdg = {
+        portal = {
+            enable = true;
+            extraPortals = with pkgs; [
+                xdg-desktop-portal-hyprland
+            ];
+            wlr.enable = true;
+        };
     };
 
     # Enables support for Bluetooth
@@ -33,6 +38,7 @@
             alsa.enable = true;
             alsa.support32Bit = true;
             pulse.enable = true;
+            wireplumber.enable = true;
         };
     };
 
