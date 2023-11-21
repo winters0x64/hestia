@@ -52,6 +52,9 @@
     pavucontrol
     nmap
     nnn
+    virtualenv
+    swaylock
+    framac
   ];
    # Don't touch this!
    stateVersion = "23.05";

@@ -5,7 +5,8 @@
         ./hypr
         ./rofi
         ./foot
-        ./swaylock
+        ./nvim
+       /*  ./swaylock */
         # ./eww
     ];
     

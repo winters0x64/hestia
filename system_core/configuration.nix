@@ -61,6 +61,9 @@
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
 
+  # Swaylock wouldn't work without this
+  security.pam.services.swaylock = {};
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 

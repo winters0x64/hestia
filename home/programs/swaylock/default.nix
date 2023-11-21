@@ -1,11 +1,9 @@
 { config, pkgs, ... }:
 
 {
-    security.pam.services.swaylock = {
-    text = ''
-      auth include login
-    '';
-  };
+    # Swaylock
+    programs.swaylock.enable = true;
+    programs.swaylock.package = pkgs.swaylock-effects;
 }
 
 
