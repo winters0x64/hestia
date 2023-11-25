@@ -55,6 +55,7 @@
     virtualenv
     swaylock
     framac
+    pgadmin4
   ];
    # Don't touch this!
    stateVersion = "23.05";
