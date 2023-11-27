@@ -42,6 +42,29 @@
             wireplumber.enable = true;
         };
 
+
+        
+        # Had to put it here coz of dbms S3 smh...
+        
+        # Postgresql
+        postgresql = {
+            enable = true;
+            authentication = pkgs.lib.mkOverride 10 ''
+            #type database  DBuser  auth-method
+            local all       all     trust
+
+            # IPv4 local connections:
+            host  all      all     127.0.0.1/32   trust
+
+            # IPv6 local connections:
+            host  all      all     ::1/128        trust
+            '';
+        };
+        # Pgadmin
+        pgadmin.enable = true;
+        pgadmin.initialEmail = "arunkrishnan711@gmail.com";
+        pgadmin.initialPasswordFile = builtins.toFile "password" "123456";
+        
         # Mysql
         mysql = {
             enable = true;

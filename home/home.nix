@@ -38,7 +38,6 @@
     cava
     xdg-utils
     webcord
-    wireshark
     nodejs
     python311
     virtualenv
@@ -55,7 +54,7 @@
     virtualenv
     swaylock
     framac
-    pgadmin4
+    bore-cli
   ];
    # Don't touch this!
    stateVersion = "23.05";

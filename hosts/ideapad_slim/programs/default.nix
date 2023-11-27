@@ -1,8 +1,10 @@
 { config, pkgs, ... }:
 
 {
+    # Idk why this even here??
     programs.dconf.enable = true;
     
+    #Zsh
     programs.zsh = {
         enable = true;
         enableCompletion = true;
@@ -17,6 +19,15 @@
         };
     };
 
+
+    programs.wireshark.enable = true;
+    programs.wireshark.package = pkgs.wireshark;
+
+
+    # Also for S3
+    programs.java.enable = true;
+
+    # Per host packages
     environment.systemPackages = with pkgs; [
         btop
         blueberry
@@ -24,5 +35,7 @@
         eww-wayland
         dmenu
         wget
+        pgadmin
+        libsForQt5.polkit-kde-agent
     ];
 }

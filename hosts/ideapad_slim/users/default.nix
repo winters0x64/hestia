@@ -8,4 +8,6 @@
         extraGroups = [ "networkmanager" "wheel" "docker"];
         shell = pkgs.zsh;
     };
+
+    users.groups.wireshark.members = [ "wireshark" ];
 }
