@@ -5,9 +5,7 @@
     users.users.winters = {
         isNormalUser = true;
         description = "Arun Krishnan";
-        extraGroups = [ "networkmanager" "wheel" "docker"];
+        extraGroups = [ "networkmanager" "wheel" "docker" "wireshark"];
         shell = pkgs.zsh;
     };
-
-    users.groups.wireshark.members = [ "wireshark" ];
 }

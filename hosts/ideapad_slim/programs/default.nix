@@ -19,10 +19,9 @@
         };
     };
 
-
+    
     programs.wireshark.enable = true;
     programs.wireshark.package = pkgs.wireshark;
-
 
     # Also for S3
     programs.java.enable = true;
@@ -36,6 +35,5 @@
         dmenu
         wget
         pgadmin
-        libsForQt5.polkit-kde-agent
     ];
 }

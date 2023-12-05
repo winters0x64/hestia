@@ -55,6 +55,10 @@
     swaylock
     framac
     bore-cli
+    openssl
+    openvpn
+    exiftool
+    pywal
   ];
    # Don't touch this!
    stateVersion = "23.05";
