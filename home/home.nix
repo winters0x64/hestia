@@ -59,6 +59,9 @@
     openvpn
     exiftool
     pywal
+    texliveMedium
+    webanalyze
+    dig
   ];
    # Don't touch this!
    stateVersion = "23.05";
