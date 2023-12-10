@@ -62,6 +62,10 @@
     texliveMedium
     webanalyze
     dig
+    john
+    inetutils
+    stegseek
+    steghide
   ];
    # Don't touch this!
    stateVersion = "23.05";
