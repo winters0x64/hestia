@@ -50,7 +50,6 @@
     (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "DaddyTimeMono" ]; })
     pavucontrol
     nmap
-    nnn
     virtualenv
     swaylock
     framac
@@ -60,12 +59,13 @@
     exiftool
     pywal
     texliveMedium
-    webanalyze
     dig
     john
     inetutils
     stegseek
     steghide
+    sherlock
+    ffuf
   ];
    # Don't touch this!
    stateVersion = "23.05";
